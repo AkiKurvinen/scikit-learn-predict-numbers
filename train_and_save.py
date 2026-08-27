@@ -12,7 +12,7 @@ import joblib
 
 DATA_PATH = "./dataset/semeion.data"   # update path if needed
 MODEL_PATH = "digit_model.joblib"
-#SKIP_ROWS = 500
+# SKIP_ROWS = 500
 SKIP_ROWS = 1580
 
 

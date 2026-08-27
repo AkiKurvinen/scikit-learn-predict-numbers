@@ -24,6 +24,7 @@ python -m venv .venv
 **Install Dependencies**
 ```bash
 pip install -r requirements.txt
+pip install -U scikit-learn
 ```
 
 ## Usage

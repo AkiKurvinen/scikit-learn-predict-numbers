@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# other
+*.joblib
+*.narwhals
+*.numpy
+*.pip
+*.scikit-learn
+*.scipy
+*.threadpoolctl
+*.pandas
