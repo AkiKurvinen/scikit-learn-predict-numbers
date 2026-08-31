@@ -34,6 +34,12 @@ pip install -U scikit-learn
 python display_number.py 130
 ```
 
+### Classify numbers
+```
+python classify.py
+python classify.py 130
+```
+
 ### Train model
 ```
 python train_and_save.py
