@@ -11,13 +11,13 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-DATA_PATH = "./dataset/semeion.data"
-CLUSTERS_MIN = 10
-CLUSTERS_MAX = 10
+DATA_PATH = "./dataset/semeion_no_labels.data"
+CLUSTERS_MIN = 3
+CLUSTERS_MAX = 15
 
 def load_data(path):
     df = pd.read_csv(path, sep=r"\s+", header=None)
-    X = df.iloc[:, :256].values
+    X = df.iloc[:, :].values
     return X
 
 
